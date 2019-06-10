@@ -1,6 +1,6 @@
 # SIGAPCE
 
-# Sistema de Gerenciamento de Atividades com Produtos Controlados
+# Sistema de Gerenciamento de Atividades com Produtos Controlados do SPFC/2
 
 # Exército Brasileiro
 

@@ -1,0 +1,18 @@
+<?php
+//Local
+//$db['server']	= 'localhost';
+//$db['user']	= 'root';
+//$db['password']	= '';
+//$db['dbname']	= 'sigapce';
+
+//WebSFPC CTA
+$db['server']	= '10.13.0.32';
+$db['user']	= 'sistemas_sfpc';
+$db['password']	= '9En8SOIT';
+$db['dbname']	= 'sistemas_sfpc';
+
+$conn = mysqli_connect($db['server'], $db['user'], $db['password']) or die(mysql_error());
+
+mysqli_select_db($conn,'sistemas_sfpc');
+mysqli_query($conn,"SET NAMES 'utf8';");
+?>

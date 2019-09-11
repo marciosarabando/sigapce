@@ -1702,16 +1702,7 @@ INSERT INTO `cidade` (`id_cidade`, `uf_cidade`, `nm_cidade`) VALUES
 (934, 'SP', 'VOTUPORANGA'),
 (935, 'SP', 'ZACARIAS');
 
---
--- Extraindo dados da tabela `documento_indexador`
---
 
-INSERT INTO `documento_indexador` (`id_documento_indexador`, `id_documento_indexador_formato`, `nm_documento_indexador`) VALUES
-(1, 2, 'Nº PROTOCOLO'),
-(2, 4, 'Nº RG'),
-(3, 5, 'Nº CPF'),
-(4, 6, 'Nº CNPJ'),
-(5, 1, 'OBSERVAÇÃO');
 
 --
 -- Extraindo dados da tabela `documento_indexador_formato`
@@ -1725,6 +1716,17 @@ INSERT INTO `documento_indexador_formato` (`id_documento_indexador_formato`, `nm
 (5, 'CPF'),
 (6, 'CNPJ'),
 (7, 'PLACA VEÍCULO');
+
+--
+-- Extraindo dados da tabela `documento_indexador`
+--
+
+INSERT INTO `documento_indexador` (`id_documento_indexador`, `id_documento_indexador_formato`, `nm_documento_indexador`) VALUES
+(1, 2, 'Nº PROTOCOLO'),
+(2, 4, 'Nº RG'),
+(3, 5, 'Nº CPF'),
+(4, 6, 'Nº CNPJ'),
+(5, 1, 'OBSERVAÇÃO');
 
 --
 -- Extraindo dados da tabela `documento_tipo`
@@ -1750,6 +1752,8 @@ INSERT INTO `documento_tipo_indexadores` (`id_documento_tipo`, `id_documento_ind
 INSERT INTO `login` (`id_login`, `id_posto_graduacao`, `id_login_perfil`, `id_unidade`, `nm_login`, `nm_guerra`, `nm_senha`, `nm_completo`, `nm_email`, `st_ativo`) VALUES
 (1, 8, 1, 1, 'SARABANDO', 'SARABANDO', 'f39c0d4e47055d52f77170f06adf56fc', 'MARCIO SARABANDO', '', 1);
 
+
+
 --
 -- Extraindo dados da tabela `login_carteira`
 --
@@ -1773,10 +1777,7 @@ INSERT INTO `modulo` (`id_modulo`, `nm_modulo`, `ds_modulo`) VALUES
 --
 
 INSERT INTO `modulo_permissao` (`id_modulo`, `id_login`) VALUES
-(1, 1),
-(1, 2),
-(1, 3),
-(1, 4);
+(1, 1);
 
 --
 -- Extraindo dados da tabela `parametro`

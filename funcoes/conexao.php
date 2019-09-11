@@ -1,9 +1,9 @@
 <?php
 //Local Ten Sarabando
-$db['server']	= 'localhost';
-$db['user']	= 'root';
-$db['password']	= '';
-$db['dbname']	= 'sigapce_prd';
+$db['server']	= '192.168.10.10';
+$db['user']	= 'homestead';
+$db['password']	= 'secret';
+$db['dbname']	= 'sigapce';
 
 //WebSFPC CTA
 //$db['server']	= '10.13.130.42';

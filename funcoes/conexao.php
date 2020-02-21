@@ -5,12 +5,6 @@ $db['user']	= 'homestead';
 $db['password']	= 'secret';
 $db['dbname']	= 'sigapce';
 
-//WebSFPC CTA
-//$db['server']	= '10.13.130.42';
-//$db['user']	= 'sistemas_sfpc';
-//$db['password']	= '9En8SOIT';
-//$db['dbname']	= 'sistemas_sfpc';
-
 $conn = mysqli_connect($db['server'], $db['user'], $db['password']) or die(mysql_error());
 
 mysqli_select_db($conn, $db['dbname']);
